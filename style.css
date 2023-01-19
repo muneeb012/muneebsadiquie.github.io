@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo img {
+    width: 50px;
+    padding-left: 10px;
+
+}
+header{
+    width: 100%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 9px;
+}
+
+.links ul li {
+    display: inline-block;
+    padding: 15px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 black
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.text {
+    font-weight: bold;
+
+}
+
+button {
+    background-color: red;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gig ul li{
+  display: inline-flex;
+  margin: 10px;
+
+  
+}
+.gig img{
+    height: 150px;
+}
+.chat img{
+    width: 80px;
+}
+.chat{
+    position: fixed;
+        bottom: 0;
+        right: 0;
+}
+
+main{
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(56, 56, 56);
+    height:80%;
+    width: 100%;
+    padding: 3em;
+    margin-top: auto;
+}
+.rnav ul li{
+    display: block;
+    padding: 20px;
+   position: relative;
+   right: 50px;  
+   box-sizing: content-box;
+width: 30rem;
+}
+.rnav ul li:hover{
+    background-color: rgb(0, 0, 0); 
+    transition: 0.5s;
+    cursor: pointer;
+}
+.rnav ul li a{
+   color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.rlogo img{
+width: 60px;
+
+}
+.rlogo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+   
+.center{
+    text-align: center;
+}
+.mainf{
+    width: 100%;
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+ justify-content: space-between;
+    
+}
+
+.mainf ul li{
+display: inline-block;
+}
+.rlink{
+    display: none;
+}
+
+.contact{
+ padding-top: 9px;
+padding-left: 60px;
+    width: 300px;
+    height: 200px;  
+}
+.tagline p{
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.contact ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact ul li{
+    display: block;
+
+
+}
+.contact h6{
+ padding-left: 30px;
+}
+.freelance{
+  
+    padding-left: 20px;
+    padding-top: 9px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+}
+
+.paymentmethod img{
+width: 40px;
+}
+
+.paymentmethod ul li{
+    display: inline-block;
+    margin: 3px;
+}
+.paymentmethod{
+   width: 300px;
+   padding-top: 10px;
+ text-align: center;
+ height: 100px;
+}
+.paymentmethod h6{
+    padding-left: 40px;
+}
+.social{
+    text-align: center;
+    color: white;
+}
+.social ul li{
+    display: inline-block;
+    margin: 10px;
+  
+    
+}
+
+
+
+.social p{
+    font-size: 30px;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+}
+#fb :hover{
+color: rgb(0, 153, 255);
+transition: 0.5s;
+}
+#yt :hover{
+color: red;
+transition: 0.5s;
+}
+#in :hover{
+color: rgb(233, 72, 99);
+transition: 0.5s;
+}
+#pin :hover{
+    color: rgb(250, 80, 80);
+transition: 0.5s;
+}
+#tik :hover{
+    color: black;
+transition: 0.5s;
+}
+.baner img{
+    width: 100%;
+}
+.baner{
+ position: sticky;
+ z-index: 0;
+ padding-top: 45px;
+}
+@media screen and (max-width:768px) {
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .links ul li{
+ display: none;
+    }
+    .rlink{
+        display: inline;
+        position: relative;
+        bottom: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 860px)
+{
+    .mainf{
+        flex-direction: column;
+      align-items: center;
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+       
+      
+    }
+
+    .paymentmethod{
+        height: 80px;
+    }
+    .contact{
+        height: 150px;
+        text-align: center;
+        position: relative;
+        right: 20px;
+        bottom: 30px;
+        
+    }
+    
+   
+    }
+    
+     
