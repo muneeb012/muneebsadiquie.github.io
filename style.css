@@ -8,7 +8,6 @@ html {
 
 body {
     min-height: 100%;
-
     display: flex;
     flex-direction: column;
 }
@@ -105,8 +104,8 @@ main{
     padding: 20px;
    position: relative;
    right: 50px;  
-   box-sizing: content-box;
-width: 30rem;
+   width: 100%;
+   border-radius: 10px;
 }
 .rnav ul li:hover{
     background-color: rgb(0, 0, 0); 
@@ -141,6 +140,15 @@ width: 60px;
     
 }
 
+
+.portfilia ul li{
+    display: inline-flex;
+    margin: 10px;
+}
+.portfilia{
+    padding-top: 51px;
+    text-align: center;
+}
 .mainf ul li{
 display: inline-block;
 }
@@ -185,7 +193,10 @@ padding-left: 60px;
 .paymentmethod img{
 width: 40px;
 }
-
+.video{
+    position: fixed;
+    z-index: 1;
+}
 .paymentmethod ul li{
     display: inline-block;
     margin: 3px;
