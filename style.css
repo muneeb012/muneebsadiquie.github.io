@@ -11,7 +11,31 @@ body {
     display: flex;
     flex-direction: column;
 }
+.policy{
+    padding-left: 10px;
 
+}
+
+.policy h1 {
+    text-align: center;
+    padding-top: 30px;
+}.policy{
+    padding-left: 10px;
+
+}
+
+.policy h1 {
+    text-align: center;
+    padding-top: 30px;
+}.policy{
+    padding-left: 10px;
+
+}
+
+.policy h1 {
+    text-align: center;
+    padding-top: 30px;
+}
 
 .logo img {
     width: 50px;
