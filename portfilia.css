@@ -13,16 +13,11 @@ iframe{
      height: 315px;
 
 }
-.graphic{
-     /* height: 55vh; */
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     
-}
+
 .graphic ul li{
-     display: inline;
-     margin: 10px;
+     display: inline-flex;
+    
+     
 }
 .photomain{
      text-align: center;
